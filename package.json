@@ -1,5 +1,5 @@
 {
-  "name": "highlightjs-huff",
+  "name": "abdk-highlightjs-huff",
   "version": "1.0.0",
   "description": "Highlight.js syntax definition for the Huff EVM assembly language",
   "main": "dist/index.js",
@@ -35,12 +35,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abdk-consulting/highlightjs-huff.git"
+    "url": "https://github.com/abdk-consulting/abdk-highlightjs-huff.git"
   },
   "bugs": {
-    "url": "https://github.com/abdk-consulting/highlightjs-huff/issues"
+    "url": "https://github.com/abdk-consulting/abdk-highlightjs-huff/issues"
   },
-  "homepage": "https://github.com/abdk-consulting/highlightjs-huff#readme",
+  "homepage": "https://github.com/abdk-consulting/abdk-highlightjs-huff#readme",
   "peerDependencies": {
     "highlight.js": ">=11.9.0"
   },

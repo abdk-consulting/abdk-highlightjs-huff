@@ -1,7 +1,7 @@
-# highlightjs-huff
+# abdk-highlightjs-huff
 
-[![npm version](https://img.shields.io/npm/v/highlightjs-huff.svg)](https://www.npmjs.com/package/highlightjs-huff)
-[![CI](https://github.com/abdk-consulting/highlightjs-huff/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/abdk-consulting/highlightjs-huff/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/abdk-highlightjs-huff.svg)](https://www.npmjs.com/package/abdk-highlightjs-huff)
+[![CI](https://github.com/abdk-consulting/abdk-highlightjs-huff/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/abdk-consulting/abdk-highlightjs-huff/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A [Highlight.js](https://highlightjs.org/) language plugin that adds rich
@@ -36,7 +36,7 @@ assembly language for writing highly optimised Ethereum smart contracts.
 ## Installation
 
 ```bash
-npm install highlightjs-huff
+npm install abdk-highlightjs-huff
 ```
 
 > `highlight.js` ≥ 11 is a peer dependency — install it separately if you
@@ -54,7 +54,7 @@ npm install highlightjs-huff
 
 ```js
 const hljs = require("highlight.js");
-const huff = require("highlightjs-huff");
+const huff = require("abdk-highlightjs-huff");
 
 hljs.registerLanguage("huff", huff.default ?? huff);
 
@@ -78,7 +78,7 @@ console.log(html);
 
 ```js
 import hljs from "highlight.js";
-import huff from "highlightjs-huff";
+import huff from "abdk-highlightjs-huff";
 
 hljs.registerLanguage("huff", huff);
 
@@ -92,8 +92,8 @@ Load Highlight.js first, then load this plugin:
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/github-dark.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
-<!-- highlightjs-huff -->
-<script src="https://unpkg.com/highlightjs-huff/dist/index.js"></script>
+<!-- abdk-highlightjs-huff -->
+<script src="https://unpkg.com/abdk-highlightjs-huff/dist/index.js"></script>
 <script>
   hljs.registerLanguage("huff", window.hljsHuff?.default ?? window.hljsHuff);
   hljs.highlightAll();

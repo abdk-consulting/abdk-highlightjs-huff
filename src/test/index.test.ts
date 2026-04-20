@@ -1,5 +1,5 @@
 /**
- * Comprehensive test suite for highlightjs-huff.
+ * Comprehensive test suite for abdk-highlightjs-huff.
  *
  * Uses Node.js built-in test runner (node:test) and assert — no extra
  * dependencies needed beyond highlight.js itself.
