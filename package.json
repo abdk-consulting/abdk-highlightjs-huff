@@ -1,0 +1,55 @@
+{
+  "name": "highlightjs-huff",
+  "version": "1.0.0",
+  "description": "Highlight.js syntax definition for the Huff EVM assembly language",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "src/index.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "build:watch": "tsc --project tsconfig.json --watch",
+    "test": "npm run build && node --test dist/test/index.test.js",
+    "lint": "tsc --project tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build && npm test",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "highlightjs",
+    "highlight.js",
+    "huff",
+    "syntax-highlighting",
+    "evm",
+    "ethereum",
+    "assembly",
+    "smart-contracts"
+  ],
+  "author": "ABDK Consulting",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdk-consulting/highlightjs-huff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdk-consulting/highlightjs-huff/issues"
+  },
+  "homepage": "https://github.com/abdk-consulting/highlightjs-huff#readme",
+  "peerDependencies": {
+    "highlight.js": ">=11.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.0.0",
+    "highlight.js": "^11.11.1",
+    "typescript": "6.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
